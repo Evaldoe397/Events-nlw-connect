@@ -1,4 +1,4 @@
-package br.com.nlw.events.repositorie;
+package br.com.nlw.events.repository;
 
 import org.springframework.data.repository.CrudRepository;
 

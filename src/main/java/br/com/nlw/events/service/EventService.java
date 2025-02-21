@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import br.com.nlw.events.model.Event;
-import br.com.nlw.events.repositorie.EventRepo;
+import br.com.nlw.events.repository.EventRepo;
 
 @Service
 public class EventService {

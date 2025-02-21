@@ -25,12 +25,16 @@ public class Event {
 	private String location;
 	@Column(name="price", nullable=false)
 	private Double price;
+	
 	@Column(name="start_date")
 	private LocalDate startDate;
+	
 	@Column(name="end_date")
 	private LocalDate endDate;
+	
 	@Column(name="start_time")
 	private LocalTime startTime;
+	
 	@Column(name="end_time")
 	private LocalTime endTime;
 	public Integer getEventId() {
